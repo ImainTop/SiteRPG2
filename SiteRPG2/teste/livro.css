@@ -1,0 +1,69 @@
+@font-face {
+  font-family: jav-Handwriting;
+  src: url(../assets/fonts/IndieFlower-Regular.ttf);
+}
+
+body {
+  overflow: hidden;
+  background-color: dimgray;
+  }
+
+h1,
+p {
+  margin-left: 3.5%;
+  font-family: jav-Handwriting;
+}
+
+#capa {
+  background-image: url(../assets/images/capaTemplate1.png) !important;
+  background-position: right bottom, left top;
+  background-repeat: no-repeat;
+  background-size: 405px 601px;
+}
+
+#contracapa {
+  background-image: url(../assets/images/contracapaTemplate.png) !important;
+  background-position: right bottom, left top;
+  background-repeat: no-repeat;
+  background-size: 405px 601px;
+}
+
+#trascontracapa {
+  background-image: url(../assets/images/contracapaTemplate2.png) !important;
+  background-position: right bottom, left top;
+  background-repeat: no-repeat;
+  background-size: 405px 601px;
+}
+
+#livro .own-size {
+  width: 390px;
+  height: 580px;
+}
+
+#livro .odd {
+  background-image: url(../assets/images/livroTemplate.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat;
+  background-size: 405px 601px;
+}
+
+#livro .even {
+  background-image: url(../assets/images/livroTemplate2.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat;
+  background-size: 405px 601px;
+}
+
+
+.livro .shadow {
+  box-shadow: 0 4px 10px #666666;
+}
+
+
+#livro {
+  margin: 1%auto;
+}
+
+#livro .turn-page {
+  background-color: #ccc;
+}
